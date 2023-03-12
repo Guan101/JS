@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/webpack/", //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
+  base: "/js/", //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -54,7 +54,8 @@ module.exports = {
             "",
              "theme",
              "plugin",
-             "工程化概念"
+             "工程化概念",
+             "java/day01"
             ],
           "/resource/": [],
         },
