@@ -46,7 +46,7 @@ module.exports = {
           { text: "学习", link: "https://lwebapp.com", ariaLabel: "学习" },
           {
             text: "Github",
-            link: "https://github.com/openHacking/vuepress-template",
+            link: "https://github.com/openHacking/1",
           },
         ],
         sidebar: {
