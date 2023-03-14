@@ -5,7 +5,7 @@ time=$(date "+%Y-%m-%d %H:%M:%S")
 
  git add .
  git commit -m "$time --更新--"
- git push -f git@github.com:Guan101/booklet.git note
+ git push -f https://github.com/Guan101/booklet.git note
 
 npm run build
 
