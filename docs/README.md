@@ -3,7 +3,7 @@ home: true
 heroText: 学习  小册
 tagline: js · java · ts
 actionText: 快速查看 →
-actionLink: /manual/
+actionLink: /menu/
 features:
 - title: 模板
   details: 丰富的模板
