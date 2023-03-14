@@ -1,11 +1,11 @@
 module.exports = {
-  base: "/js/", //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
+  base: "/manual/", //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     "/": {
       lang: "",
-      title: "webpack",
+      title: "",
       description: "",
     },
   },
@@ -42,7 +42,7 @@ module.exports = {
         // 当前 locale 的 algolia docsearch 选项
         algolia: {},
         nav: [
-          { text: "指南", link: "/guide/", ariaLabel: "指南" },
+          { text: "指南", link: "/manual/", ariaLabel: "指南" },
           { text: "学习", link: "https://lwebapp.com", ariaLabel: "学习" },
           {
             text: "Github",
@@ -50,12 +50,10 @@ module.exports = {
           },
         ],
         sidebar: {
-          "/guide/": [
-            "",
-             "theme",
-             "plugin",
-             "工程化概念",
-             "java/day01"
+          "/manual/": [
+             "js",
+             "java",
+             "ts",
             ],
           "/resource/": [],
         },

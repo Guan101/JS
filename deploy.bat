@@ -1,8 +1,8 @@
 # deploy page
 
  git add .
- git commit -m "update at $time"
- git push -f git@github.com:Guan101/webpack.git note
+ git commit -m "update"
+ git push -f git@github.com:Guan101/booklet.git note
 
 npm run build
 git add docs/.vuepress/dist

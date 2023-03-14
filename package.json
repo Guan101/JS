@@ -1,15 +1,13 @@
 {
-  "name": "webpack",
+  "name": "booklet",
   "version": "1.0.6",
-  "description": "webpack",
-  "author": "wenhao",
+  "description": "booklet",
+  "author": "guan",
   "main": "index.js",
   "keywords": [
-    "theme",
-    "template",
-    "plugin",
-    "webpack",
-    "vuepress"
+    "javascript",
+    "typescript",
+    "java"
   ],
   "license": "MIT",
   "scripts": {

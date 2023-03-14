@@ -1,9 +1,9 @@
 ---
 home: true
-heroText: webpack 学习
-tagline: 模板 · 主题 · 插件
-actionText: 快速上手 →
-actionLink: /guide/
+heroText: 学习  小册
+tagline: js · java · ts
+actionText: 快速查看 →
+actionLink: /manual/
 features:
 - title: 模板
   details: 丰富的模板
