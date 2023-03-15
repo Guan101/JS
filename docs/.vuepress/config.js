@@ -51,10 +51,10 @@ module.exports = {
         ],
         sidebar: {
           "/menu/": [
-            "",
+            // "",
+            "java",
              "js",
              "ts",
-             "java",
             ],
         },
       },
