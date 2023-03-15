@@ -7,6 +7,11 @@ module.exports = {
       lang: "",
       title: "menu",
       description: "",
+      markdown: {
+        toc: {
+          includeLevel: [1, 2, 3, 4],
+        },
+      },
     },
   },
   plugins: [
@@ -43,19 +48,21 @@ module.exports = {
         algolia: {},
         nav: [
           { text: "指南", link: "/menu/", ariaLabel: "指南" },
-          { text: "学习", link: "https://lwebapp.com", ariaLabel: "学习" },
+          {
+            text: "Vue 学习笔记",
+            children: [
+              { text: "笔记", link: "https://www.baidu.com/"}, // 可不写后缀
+              { text: "其它链接", link: "https://www.baidu.com/" }, // 外部链接
+            ],
+          },
           {
             text: "Github",
             link: "https://github.com/openHacking/vuepress-template",
           },
         ],
         sidebar: {
-          "/menu/": [
-            // "",
-            "java",
-             "js",
-             "ts",
-            ],
+          "/menu/java/": ["概述", "变量", "运算符"],
+          "/menu/js/": ["js"],
         },
       },
     },
