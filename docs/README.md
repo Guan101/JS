@@ -10,6 +10,6 @@ features:
 - title: 主题
   details: 自定义主题
 - title: 插件
-  details: 多种插件
+  details: 多种w插件
 footer: 
 ---
